@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.hojong.meokgol.activity.ShopListActivity">
+
+    <item android:id="@+id/shop_favorite"
+        android:title="@string/shop_favorite"
+        android:icon="@drawable/nav_favorites_off"
+        app:showAsAction="collapseActionView|ifRoom" />
+</menu>

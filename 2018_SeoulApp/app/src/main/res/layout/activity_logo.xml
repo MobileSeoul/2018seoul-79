@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hojong.meokgol.activity.LogoActivity">
+
+    <!--<com.airbnb.lottie.LottieAnimationView-->
+        <!--android:id="@+id/logo_view"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="0dp"-->
+        <!--app:layout_constraintTop_toTopOf="parent"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:lottie_fileName="logo.json"-->
+        <!--app:lottie_autoPlay="true"-->
+        <!--app:lottie_imageAssetsFolder="images/"/>-->
+
+    <!--<ImageView-->
+    <!--android:id="@+id/logo_view"-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="0dp"-->
+    <!--android:scaleType="fitXY"-->
+    <!--app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--app:layout_constraintEnd_toEndOf="parent"-->
+    <!--app:layout_constraintHorizontal_bias="0.5"-->
+    <!--app:layout_constraintStart_toStartOf="parent"-->
+    <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/logo_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/logo"
+        android:background="@drawable/logo"
+        android:scaleType="fitXY" />
+
+</android.support.constraint.ConstraintLayout>

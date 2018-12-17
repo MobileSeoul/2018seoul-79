@@ -1,0 +1,73 @@
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <item name="actionBarStyle">@style/AppTheme.ActionBar</item>
+        <!--<item name="actionBarTheme">@style/ThemeOverlay.AppTheme.ActionBar</item>-->
+        <!--<item name="actionBarPopupTheme">@style/ThemeOverlay.AppTheme.PopupMenu</item>-->
+
+        <!--BottomBar-->
+        <!--<item name="android:navigationBarColor">@android:color/transparent</item>-->
+        <!--<item name="android:windowTranslucentNavigation">true</item>-->
+        <!--<item name="android:windowDrawsSystemBarBackgrounds">true</item>-->
+    </style>
+
+    <style name="AppTheme.ActionBar" parent="Widget.AppCompat.ActionBar.Solid">
+        <item name="displayOptions">useLogo</item> <!-- hide action bar title -->
+
+        <!-- action bar background - without android prefix -->
+        <item name="background">@drawable/action_bar_bg_with_text</item>
+        <item name="android:layout_height">40dp</item>
+        <!-- action bar elevation - without android prefix -->
+        <item name="elevation">2dp</item>
+        <item name="titleTextStyle">@style/AppTheme.Title</item>
+    </style>
+
+    <style name="AppTheme.Title" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar" />
+
+    <style name="AppTheme.Dialog" parent="Theme.AppCompat.Light.Dialog">
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowMinWidthMajor">90%</item>
+        <item name="android:windowMinWidthMinor">90%</item>
+    </style>
+
+    <!--<style name="ThemeOverlay.AppTheme.ActionBar" parent="ThemeOverlay.AppCompat.Dark.ActionBar">-->
+        <!--&lt;!&ndash; title text color &ndash;&gt;-->
+        <!--<item name="android:textColorPrimary">?android:colorPrimary</item>-->
+        <!--&lt;!&ndash;&lt;!&ndash; subtitle text color &ndash;&gt;&ndash;&gt;-->
+        <!--&lt;!&ndash;<item name="android:textColorSecondary">?android:textColorSecondary</item>&ndash;&gt;-->
+        <!--&lt;!&ndash;&lt;!&ndash; action menu item text color &ndash;&gt;&ndash;&gt;-->
+        <!--&lt;!&ndash;<item name="actionMenuTextColor">?android:textColorPrimary</item>&ndash;&gt;-->
+        <!--&lt;!&ndash;&lt;!&ndash; action menu item icon color &ndash;&gt;&ndash;&gt;-->
+        <!--&lt;!&ndash;<item name="colorControlNormal">?android:textColorPrimary</item>&ndash;&gt;-->
+    <!--</style>-->
+
+    <!--<style name="ThemeOverlay.AppTheme.PopupMenu" parent="ThemeOverlay.AppCompat.Dark">-->
+        <!--&lt;!&ndash; popup menu background - NEVER "android:background" !!! in themes &ndash;&gt;-->
+        <!--<item name="android:colorBackground">...</item>-->
+        <!--&lt;!&ndash; popup menu item text color &ndash;&gt;-->
+        <!--<item name="android:textColorPrimary">...</item>-->
+    <!--</style>-->
+
+    <!--&lt;!&ndash; Base application theme. &ndash;&gt;-->
+    <!--<style name="MyTheme" parent="Theme.AppCompat.Light.DarkActionBar">-->
+        <!--&lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+        <!--<item name="colorPrimary">@color/colorPrimary</item>-->
+        <!--<item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+        <!--<item name="colorAccent">@color/colorAccent</item>-->
+
+        <!--<item name="actionBarStyle">@style/MyWdiget.ActionBar</item>-->
+        <!--<item name="actionBarTheme">@style/ThemeOverlay.AppTheme.ActionBar</item>-->
+        <!--&lt;!&ndash;<item name="actionBarPopupTheme">@style/ThemeOverlay.AppTheme.PopupMenu</item>&ndash;&gt;-->
+    <!--</style>-->
+
+    <!--<style name="MyWdiget.ActionBar" parent="Widget.AppCompat.ActionBar.Solid">-->
+        <!--<item name="android:background">@drawable/action_bar_bg</item>-->
+        <!--<item name="elevation">4dp</item>-->
+    <!--</style>-->
+
+    <!--&lt;!&ndash;<style name="MyTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>&ndash;&gt;-->
+    <!--&lt;!&ndash;<style name="MyTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>&ndash;&gt;-->
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        id="@+id/nav_shop_info"
+        icon="@drawable/nav_selector_shop_info" />
+        <!--title="@string/shop_info"/>-->
+    <tab
+        id="@+id/nav_shop_position"
+        icon="@drawable/nav_selector_shop_map" />
+        <!--title="@string/shop_position" />-->
+    <tab
+        id="@+id/nav_shop_review_list"
+        icon="@drawable/nav_selector_shop_review" />
+        <!--title="@string/shop_review_list"/>-->
+</tabs>

@@ -1,0 +1,4 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/nav_location_list_on" android:state_selected="true" />
+    <item android:drawable="@drawable/nav_location_list_off" android:state_selected="false" />
+</selector>

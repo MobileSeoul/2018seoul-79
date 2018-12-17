@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">먹골 - 먹거리골목</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_user_id">ID</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_user_id">This User ID is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions."</string>
+    <string name="title_activity_tutorial">TutorialActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="item_location_list">찾아보기</string>
+    <string name="item_favorite_list">즐겨찾기</string>
+    <string name="item_my_page">마이 페이지</string>
+    <string name="title_activity_location_list">LocationListActivity</string>
+    <string name="title_activity_shop_list">ShopListActivity</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="shop_filter">필터</string>
+    <string name="filter_fried">튀김류</string>
+    <string name="filter_noodle">면류</string>
+    <string name="filter_rice">밥류</string>
+    <string name="filter_vegetable">야채류</string>
+    <string name="shop_info">정보</string>
+    <string name="shop_position">위치</string>
+    <string name="shop_review_list">후기 및 별점</string>
+    <string name="title_activity_shop">ShopActivity</string>
+    <string name="shop_name">가게명</string>
+    <string name="item_notice_list">공지사항</string>
+    <string name="title_map">위치 정보</string>
+    <string name="title_activity_shop_review">ShopReviewWriteActivity</string>
+    <string name="title_my_page_login">로그인이 필요합니다</string>
+    <string name="refresh">새로고침</string>
+    <string name="filter_all">모두</string>
+    <string name="tutorial">튜토리얼</string>
+    <string name="dev_info">앱 개발 : 김명길, 이창호, 전종호\n앱 디자인 : 한제우\n앱 버전 : v1.0.0\n사용 폰트 : 네이버 나눔 스퀘어\n문의사항 : hojong.jjh@gmail.com</string>
+    <string name="debug_info">평가용 아이디 : guest\n비밀번호 : guest</string>
+    <string name="shop_favorite">즐겨찾기</string>
+    <string name="filter_etc">기타</string>
+</resources>

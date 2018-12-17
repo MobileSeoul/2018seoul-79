@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        id="@+id/nav_locations"
+        icon="@drawable/nav_selector_location_list" />
+        <!--title="@string/item_location_list" />-->
+    <tab
+        id="@+id/nav_favorites"
+        icon="@drawable/nav_selector_favorite_list" />
+        <!--title="@string/item_favorite_list" />-->
+    <tab
+        id="@+id/nav_notices"
+        icon="@drawable/nav_selector_notice_list" />
+        <!--title="@string/item_notice_list" />-->
+    <tab
+        id="@+id/nav_my_page"
+        icon="@drawable/nav_selector_my_page" />
+        <!--title="@string/item_my_page" />-->
+</tabs>
